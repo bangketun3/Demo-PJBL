@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html> 
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web PJBL</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="image/LogoHantu.png"></a>
+            <div class="nav-links" id="navLinks">
+                <i class="fa-solid fa-xmark" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="sanctuary.html">SANCTUARY</a></li>
+                    <li><a href="Blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+            </div>
+            <i class="fa-solid fa-bars" onclick="showMenu()"></i>
+        </nav>
+        <h1>Our Sanctuary</h1>
+    </section>
+
+    <!--- Sanctuary --->
+    <section class="Owltype">
+        <h1>Owl That We Have</h1>
+        <p> Here are some of the owls that we have in our sanctuary.</p>
+
+        <div class="row">
+            <div class="Owltype-col">
+                <h3>Barn Owl</h3>
+                <p> Barn owls are medium-sized owls with distinctive heart-shaped faces, long legs, and a white or light-colored underside. They are known for their silent flight and exceptional hunting skills, primarily preying on small mammals like rodents.</p>
+                <img src="image/BarnOwl.jpg">
+                </div>
+            <div class="Owltype-col">
+                <h3>Snowy Owl</h3>
+                <p> Snowy owls are large, white owls with striking yellow eyes and black markings. They are native to Arctic regions and are well-adapted to cold environments. Snowy owls primarily hunt during the day and feed on small mammals and birds.</p>
+                <img src="image/SnowyOwl.jpg">
+                </div>
+            <div class="Owltype-col">
+                <h3>Barred Owl</h3>
+                <p> Barred owls are medium to large-sized owls with distinctive brown and white striped plumage. They have dark eyes and a rounded head without ear tufts. Barred owls are known for their loud, hooting calls and primarily inhabit wooded areas, preying on small mammals, birds, and amphibians.</p>
+                <img src="image/BarredOwl.jpg">
+                </div>
+            <div class="Owltype-col">
+                <h3>Eagle Owl</h3>
+                <p> Eagle owls are among the largest owl species, characterized by their powerful build, prominent ear tufts, and striking orange or yellow eyes. They have a diverse diet, feeding on mammals, birds, and reptiles, and are known for their strong hunting abilities and adaptability to various habitats.</p>
+                <img src="image/EagleOwl.jpg">
+                </div>
+            <div class="Owltype-col">
+                <h3>Great Horned Owl</h3>
+                <p> Great horned owls are large, powerful owls with distinctive ear tufts that resemble horns. They have a mottled brown and gray plumage, yellow eyes, and a white patch on their throat. Great horned owls are versatile hunters, preying on a wide range of animals, including mammals, birds, reptiles, and amphibians.</p>
+                <img src="image/GreatHornedOwl.jpg">
+                </div>
+        </div>
+     </section> 
+
+     <!--- Facilities --->
+     <section class="Facilities">
+        <h1>Our Facilities</h1>
+        <p> Our owl sanctuary offers a range of facilities to ensure a comfortable and educational experience for our visitors. These include:</p>
+
+        <div class="row">
+            <div class="Facilities-col">
+                <img src="image/EducationalCenter.jpg">
+                <h3>Educational Center</h3>
+                <p> A dedicated space for learning about owls, their habitats, and conservation efforts through interactive exhibits and presentations.</p>
+            </div>
+            <div class="Facilities-col">
+                <img src="image/Enclouser.jpg">
+                <h3>Enclouser</h3>
+                <p> Spacious and secure enclosures that mimic the natural habitats of various owl species, providing them with a safe and comfortable environment.</p>
+            </div>
+            <div class="Facilities-col">
+                <img src="image/Playground.jpg">
+                <h3>Playground </h3>
+                <p> A fun and engaging area for children to play and learn about owls through themed activities and games.</p>
+            </div>
+     </section>
+
+     <!--- Footer --->
+
+     <section class="footer">
+        <h4>About US</h4>
+        <p> NO.</p>
+        <div class="icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-linkedin-in"></i>
+        </div>
+        <p>Made With <i class="fa-regular fa-heart"></i>By PJBL FIK Group 25</p>
+     </section>
+    <!-- JavaScript for Toggle Menu -->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
